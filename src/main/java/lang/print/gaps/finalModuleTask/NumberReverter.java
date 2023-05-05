@@ -8,7 +8,7 @@ public class NumberReverter {
         number = number /10;
         int num3 = number % 10;
         number = number /10;
-        int result = num3*100 +num2*10 + num1;
+        int result = num1*100 +num2*10 + num3;
         System.out.println(result);
     }
 }
